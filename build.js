@@ -1,6 +1,5 @@
-import { copyFile, mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir } from "node:fs/promises";
 import { build } from "esbuild";
-import { execSync } from "node:child_process";
 
 await mkdir("dist");
 
