@@ -8,7 +8,7 @@ let builder = await build({
 	platform: "browser",
 	sourcemap: true,
 	minify: false,
-  entryPoints: ['index.js'],
+  entryPoints: ['src/index.js'],
 	bundle: true,
 	treeShaking: true,
 	logLevel: "info",
