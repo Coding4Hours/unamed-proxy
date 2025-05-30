@@ -1,6 +1,9 @@
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-return {
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+export default {
   mode: 'development',
   entry: './src/index.js',
   output: {
@@ -14,4 +17,3 @@ return {
   },
   target: 'web',
 };
-
