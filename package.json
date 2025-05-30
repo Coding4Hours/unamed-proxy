@@ -1,0 +1,11 @@
+{
+  "name": "unamed-proxy",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.1.7",
+    "esbuild": "^0.25.5"
+  }
+}
