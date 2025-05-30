@@ -1,6 +1,6 @@
 import path from 'path';
 
-module.exports = {
+return {
   mode: 'development',
   entry: './src/index.js',
   output: {
