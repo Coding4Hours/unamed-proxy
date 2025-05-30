@@ -1,11 +1,16 @@
 {
   "name": "unamed-proxy",
+  "version": "1.0.0",
   "type": "module",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
-    "@mercuryworkshop/bare-mux": "^2.1.7",
-    "esbuild": "^0.25.5"
+    "@mercuryworkshop/bare-mux": "^2.1.7"
   }
 }
